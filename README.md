@@ -2,13 +2,13 @@
 
 A comprehensive empirical study comparing Equal-Weight vs Market-Cap Weighted S&P 500 portfolios, with detailed analysis of transaction costs and real-world implementation inefficiencies.
 
-## 📊 Research Question
+## Research Question
 
 **To what extent does implementation "drag" negate the performance premium of a quarterly rebalanced Equal-Weight S&P 500 portfolio compared to the standard Market-Capitalization Weighted Index (SPY)?**
 
 **Period**: January 2018 - October 2025 (7.75 years)
 
-## 🎯 Key Findings
+## Key Findings
 
 ### Performance Summary
 
@@ -27,7 +27,7 @@ A comprehensive empirical study comparing Equal-Weight vs Market-Cap Weighted S&
 
 3. **Risk Trade-off**: Equal-weight strategies showed **15-17% higher drawdowns** than market-cap weighted approaches, reflecting greater exposure to smaller-cap volatility.
 
-## 🔬 Methodology
+## Methodology
 
 ### Portfolio Constructions
 
@@ -55,7 +55,7 @@ The dual simulation approach (with/without drag) against the actual RSP ETF prov
 - RSP's underperformance reveals practical implementation challenges
 - Cost sensitivity clearly demonstrated through drag comparison
 
-## 📈 Performance Metrics Explained
+## Performance Metrics Explained
 
 ### Total Return
 ```
@@ -87,7 +87,7 @@ Max Drawdown = Min((Portfolio Value / Highest Portfolio Value) - 1)
 ```
 Largest peak-to-trough decline.
 
-## 📊 Visualizations
+## Visualizations
 
 The analysis generates two key plots:
 
@@ -103,7 +103,7 @@ The analysis generates two key plots:
 - Market-cap weighting shows superior downside protection
 - Equal-weight strategies exhibit higher volatility risk
 
-## 💡 Key Observations
+## Key Observations
 
 ### Period-Specific Behavior
 
@@ -135,7 +135,7 @@ RSP's dramatic underperformance suggests unmeasured costs:
 - Operational inefficiencies
 - Potential tracking error from fund flows
 
-## ⚠️ Limitations & Caveats
+## Limitations & Caveats
 
 ### Data Considerations
 - **Survivorship Bias**: Using current S&P 500 constituents may overstate performance
@@ -155,7 +155,7 @@ RSP's dramatic underperformance suggests unmeasured costs:
 - Cash drag from dividends
 - Fund flows and redemptions (for RSP)
 
-## 🔍 Statistical Notes
+## Statistical Notes
 
 ### Risk-Free Rate Assumption
 The analysis assumes 0% risk-free rate for Sharpe ratio calculations. During 2018-2025:
@@ -169,7 +169,7 @@ Equal-weight strategies showed only 0.36% higher volatility than SPY despite:
 - Less concentration in mega-cap tech
 - This suggests diversification benefits partially offset size-factor volatility
 
-## 📚 References
+## References
 
 ### Data Sources
 - **Yahoo Finance**: Historical price data and ETF information
@@ -181,12 +181,12 @@ Equal-weight strategies showed only 0.36% higher volatility than SPY despite:
 - freeCodeCamp.org: "Algorithmic Trading Using Python - Full Course"
   - [YouTube Tutorial](https://www.youtube.com/watch?v=xfzGZB4HhEE)
 
-## 👤 Author
+## Author
 
 - GitHub: https://github.com/Vonoa
 - LinkedIn: https://www.linkedin.com/in/aled-von-oppell-40b315289/
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - S&P Dow Jones Indices for methodology documentation
 - Yahoo Finance for accessible market data
